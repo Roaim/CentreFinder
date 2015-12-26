@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#000000"
+	android:gravity="center"
+	android:padding="10dp">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="@string/title_about_developer"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:background="#0099CC"
+		android:padding="10dp"
+		android:textColor="#FDFDFD"
+		android:textStyle="bold"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:padding="10dp"
+		android:background="#750099CC">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="@string/credit_allah"
+			android:layout_width="match_parent"
+			android:textColor="#FFFFFF"
+			android:typeface="serif"
+			android:textStyle="bold|italic"
+			android:textSize="16sp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="@string/about_developer"
+			android:layout_width="wrap_content"
+			android:textSize="15sp"
+			android:padding="5dp"
+			android:textColor="#EBEBEB"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

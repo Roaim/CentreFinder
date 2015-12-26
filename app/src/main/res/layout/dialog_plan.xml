@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:padding="11dp">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Centre"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:paddingLeft="10dp"
+		android:paddingTop="10dp"
+		android:textColor="#00AD80"/>
+
+	<Spinner
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/dialogplanSpinner1"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Roll Range"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:paddingLeft="10dp"
+		android:paddingTop="5dp"
+		android:textColor="#00AD80"/>
+
+	<Spinner
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/dialogplanSpinner2"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Group/Date"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:paddingLeft="10dp"
+		android:paddingTop="5dp"
+		android:textColor="#00AD80"/>
+
+	<Spinner
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/dialogplanSpinner3"/>
+
+</LinearLayout>
+

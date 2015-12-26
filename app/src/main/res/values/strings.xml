@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CentreFinder</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="title_about_developer">ABOUT DEVELOPER</string>
+    <string name="credit_allah">All credit goes to Almighty ALLAH</string>
+    <string name="about_developer"><![CDATA[This app is developed by-\nRoaim Ahmed Hridoy.\nDepartment of Business Administration,\nNoakhali Science & Technology University.]]></string>
+
+    <string-array name="setting_items">
+        <item>Centre list</item>
+        <item>Roll ranges</item>
+        <item>Groups &amp; Times</item>
+        <item>Seat Plan</item>
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

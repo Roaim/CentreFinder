@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal"
+	android:gravity="center">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Centre"
+		android:layout_width="wrap_content"
+		android:layout_weight="1.0"
+		android:gravity="center"
+		android:padding="7dp"
+		android:id="@+id/viewlistplanTextView1"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Roll Range"
+		android:layout_width="wrap_content"
+		android:layout_weight="1.0"
+		android:gravity="center"
+		android:padding="7dp"
+		android:id="@+id/viewlistplanTextView2"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Group/Date"
+		android:layout_width="wrap_content"
+		android:layout_weight="1.0"
+		android:gravity="center"
+		android:padding="7dp"
+		android:id="@+id/viewlistplanTextView3"/>
+
+</LinearLayout>
+
